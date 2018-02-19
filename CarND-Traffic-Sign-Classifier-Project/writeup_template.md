@@ -128,8 +128,11 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/11.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/22.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/33.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/44.jpg) 
+![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/55.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/66.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/77.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/88.jpg) 
+
+
+
 
 The first image might be difficult to classify because ...
 
