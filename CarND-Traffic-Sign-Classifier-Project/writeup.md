@@ -154,35 +154,29 @@ The final approach:
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are five German traffic signs that I found on the web:
+Here are eight German traffic signs that I found on the web:
 
 ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/11.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/22.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/33.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/44.jpg) 
 
-![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/55.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/66.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/77.jpg) ![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/88.jpg) 
+![alt text](https://github.com/alchemz/Project2_Traffic_Sign_Classifier/blob/master/CarND-Traffic-Sign-Classifier-Project/test-images/55.jpg) 
 
-### Analyze Performance
-INFO:tensorflow:Restoring parameters from ./traffic-signs-data/lenet
-Image1
-Image Accuracy = 0.000
+For Image1:
+Image Accuracy = 0.000, which means this image is hard to be classified, mainly because the original image has many noises.
 
-INFO:tensorflow:Restoring parameters from ./traffic-signs-data/lenet
-Image2
-Image Accuracy = 0.500
+For Image2:
+Image Accuracy = 0.500, compared to the other 4 images, the image 2 obtained the best classified
+result, mainly because of the high contrast between the sign and the background.
 
-INFO:tensorflow:Restoring parameters from ./traffic-signs-data/lenet
-Image3
-Image Accuracy = 0.333
+For Image3:
+Image Accuracy = 0.333, the test accuracy of image 3 is affected by some characters on the image.
 
-INFO:tensorflow:Restoring parameters from ./traffic-signs-data/lenet
-Image4
-Image Accuracy = 0.250
+For Image4:
+Image Accuracy = 0.250, and image 4 has the same issue with image 1.
 
-INFO:tensorflow:Restoring parameters from ./traffic-signs-data/lenet
-Image5
-Image Accuracy = 0.200
+For Image5:
+Image Accuracy = 0.200, for image 5, there is an object blocked up the traffic sign, and this could be the reason why the tested image accuracy is low for image 5.
 
-INFO:tensorflow:Restoring parameters from ./traffic-signs-data/lenet
-Image6
-Image Accuracy = 0.167
+
+
 
 
